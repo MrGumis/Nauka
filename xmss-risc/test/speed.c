@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+#define __STDC_FORMAT_MACROS
+#include <inttypes.h>
 #include "../xmss.h"
 #include "../params.h"
 #include "../randombytes.h"
@@ -33,7 +34,11 @@
     
 #endif
 
+/*
 
+uint64_t i;
+printf("%"PRIu64"\n", i);
+*/
 
 
 /*static unsigned long long cpucycles(void)
