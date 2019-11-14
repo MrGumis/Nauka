@@ -94,7 +94,9 @@ int main()
     uint32_t oid;
     int ret = 0;
     int i;
-
+uint64_t t0;
+printf("testujemy \n");
+/*
     // TODO test more different variants
     if (XMSS_STR_TO_OID(&oid, XMSS_VARIANT)) {
 #ifdef XMSSMT
@@ -161,6 +163,6 @@ int main()
     free(sm);
     free(mout);
     free(t);
-
+*/
     return ret;
 }
