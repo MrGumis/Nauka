@@ -3,9 +3,9 @@
 .globl getcycles
 .align 2
 getcycles:
-    csrr a1, mcycleh
-    csrr a0, mcycle
-    csrr a2, mcycleh
+    csrr a1, cycle
+    csrr a0, cycle
+    csrr a2, cycle
     bne a1, a2, getcycles
     ret
 .size getcycles,.-getcycles
