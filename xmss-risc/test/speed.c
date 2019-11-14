@@ -96,6 +96,7 @@ int main()
     int i;
 uint64_t t0;
 printf("testujemy \n");
+t0 = getcycles();
 /*
     // TODO test more different variants
     if (XMSS_STR_TO_OID(&oid, XMSS_VARIANT)) {
